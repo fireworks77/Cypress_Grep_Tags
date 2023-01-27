@@ -1,6 +1,6 @@
 # Cypress_Grep_Tags
 ## Description
-This demo has 2 test specs with 6 tests. 
+This demo includes 2 test specs with 6 tests. It demonstrates the plugin `@cypress/grep` under `Cypress`. The plugin helps developers to filter test scenarios per tags. It helps developers to specify particular tests per requirements, for instance, run `smoke` tests only; run `integration` tests, or run `e2e` regression tests.
 ### `Cypress Grep Tag Demo Google Search` 
 **Spec tags**: `'@google_search'`
 - `Search keyword: test` Test tags: `'@smoke'`
