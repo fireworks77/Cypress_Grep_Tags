@@ -13,7 +13,7 @@ This demo has 2 test specs with 6 tests.
 - `Click button: TV & AV` Test tags: `'@integration', '@regression'`
 ## Install
 - Run `npm install` to install `Cypress` and `@cypress/grep`
-### Manual install `Cypress` & `@cypress/grep`
+### Manual install `@cypress/grep`
 Assuming you have Cypress installed, add this module as a dev dependency
 - `npm i -D @cypress/grep`
 
