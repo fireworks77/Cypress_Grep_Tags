@@ -16,6 +16,7 @@ Spec tags: '@samsung_home'
 ### Manual install `Cypress` & `@cypress/grep`
 Assuming you have Cypress installed, add this module as a dev dependency
 - `npm i -D @cypress/grep`
+
 **Note**: @cypress/grep only works with Cypress version >= 10.
 ## Filter tests by tags
 ### Filter by single tag
