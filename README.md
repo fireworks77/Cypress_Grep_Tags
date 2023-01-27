@@ -2,15 +2,15 @@
 ## Description
 This demo has 2 test specs with 6 tests. 
 ### `Cypress Grep Tag Demo Google Search` 
-Spec tags: '@google_search'
-- `Search keyword: test` Test tags: '@smoke'
-- `Search keyword: cypress` Test tags: '@regression'
-- `Search keyword: samsung` Test tags: '@integration', '@regression'
+**Spec tags**: `'@google_search'`
+- `Search keyword: test` Test tags: `'@smoke'`
+- `Search keyword: cypress` Test tags: `'@regression'`
+- `Search keyword: samsung` Test tags: `'@integration', '@regression'`
 ### `Cypress Grep Tag Demo Samsung Home Page`
-Spec tags: '@samsung_home'
-- `Click button: search` Test tags: '@regression'
-- `Click button: mobile` Test tags: 'smoke', '@regression'
-- `Click button: TV & AV` Test tags: '@integration', '@regression'
+**Spec tags**: '@samsung_home'
+- `Click button: search` Test tags: `'@regression'`
+- `Click button: mobile` Test tags: `'smoke', '@regression'`
+- `Click button: TV & AV` Test tags: `'@integration', '@regression'`
 ## Install
 - Run `npm install` to install `Cypress` and `@cypress/grep`
 ### Manual install `Cypress` & `@cypress/grep`
