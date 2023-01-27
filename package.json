@@ -1,0 +1,15 @@
+{
+  "name": "cypress_grep_tags",
+  "version": "1.0.0",
+  "description": "Cypress Grep & Tags Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chong.xiang",
+  "license": "MIT",
+  "devDependencies": {
+    "@cypress/grep": "^3.1.3",
+    "cypress": "^12.4.0"
+  }
+}
