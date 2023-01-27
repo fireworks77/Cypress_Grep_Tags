@@ -21,8 +21,8 @@ Assuming you have Cypress installed, add this module as a dev dependency
 ## Filter tests by tags
 ### Filter by single tag
 `npx cypress run --env grepTags=@samsung_home`
-<img width="1147" alt="cypress filter tag describe tag 02" src="https://user-images.githubusercontent.com/48189320/215157528-a961599b-4695-4c61-a6dc-d508948bfb15.png">
 <img width="1124" alt="cypress filter tag describe tag 01" src="https://user-images.githubusercontent.com/48189320/215157514-703c4136-4ffc-44f5-9601-2ab0b6b72171.png">
+<img width="1147" alt="cypress filter tag describe tag 02" src="https://user-images.githubusercontent.com/48189320/215157528-a961599b-4695-4c61-a6dc-d508948bfb15.png">
 ### Filter by multiple tags
 `npx cypress run --env grepTags='@smoke @integration'`
 <img width="1117" alt="cypress filter tag multiple 01" src="https://user-images.githubusercontent.com/48189320/215157664-f740ab66-1b6a-4dfc-a536-20e40ea4017b.png">
