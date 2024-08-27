@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+
+const fileName = process.argv[2];
+
+const readFiles = () => {
+    fs.readFile(fileName, {encoding: 'utf8'}, function(err,data){
+        if (!err) {
+            console.log('received data: ' + data);
+        } else {
+            console.log('cannot find the file or something went wrong. please kindly check.');
+        }
+    });
+}
+
+readFiles();
+
